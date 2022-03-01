@@ -1,4 +1,4 @@
-const randomElement = (arr) => (
+export default const randomElement = (arr) => (
   arr[Math.floor(Math.random() * arr.length)]
 );
 
